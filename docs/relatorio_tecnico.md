@@ -86,7 +86,8 @@ Escolhemos um modelo de **pequeno porte** para viabilizar a demonstração compl
 
 Ambiente da execução: Tesla T4 (14,56 GB) no Google Colab, Unsloth 2026.9.4, Transformers 5.5.0, PyTorch 2.11.0+cu128. O T4 não suporta `bfloat16`, então o treino usou `fp16`.
 
-<!-- Inserir aqui o print da curva de loss do treinamento (seção 10.2 do notebook) -->
+<img width="614" height="808" alt="image" src="https://github.com/user-attachments/assets/6b91ccd6-1162-4d6e-9f51-abff43702f3d" />
+
 
 ---
 
@@ -108,7 +109,7 @@ Aplicamos **exatamente o mesmo protocolo** ao modelo base, sem fine-tuning. A ú
 
 O modelo base, nunca exposto ao formato esperado, produziu **200 respostas inválidas em 200** — nenhuma pôde ser classificada, zerando todas as métricas.
 
-<!-- Inserir aqui o print da tabela comparativa (seção 19.2 do notebook) -->
+<img width="531" height="165" alt="image" src="https://github.com/user-attachments/assets/99efa7c1-db2e-4115-b9b3-0ea58b620d6b" />
 
 ### 4.2 Desempenho por classe (modelo especializado)
 
@@ -118,7 +119,8 @@ O modelo base, nunca exposto ao formato esperado, produziu **200 respostas invá
 | no | 0,69 | 0,60 | 0,65 | 68 |
 | maybe | 0,00 | 0,00 | 0,00 | 22 |
 
-<!-- Inserir aqui o print da matriz de confusão (seção 11.9 do notebook) -->
+<img width="537" height="455" alt="image" src="https://github.com/user-attachments/assets/c6737fa3-554f-44ed-b940-d698c09fe49b" />
+
 
 ### 4.3 Interpretação
 
@@ -200,7 +202,8 @@ peito, falta de ar, alteração neurológica ou perda de cons
 
 A resposta é aderente ao protocolo recuperado, não prescreve conduta e direciona casos graves para avaliação médica. O retriever trouxe dois trechos e o modelo se apoiou no pertinente, ignorando o de febre. Dois defeitos ficam visíveis: a resposta é **cortada no meio da palavra** (`max_new_tokens=100`) e o pós-processamento, sensível a maiúsculas, deixou vazar o marcador `pergunta:` em minúsculo em outro caso de teste.
 
-<!-- Inserir aqui o print da execução do fluxo (seção 15.9 ou 16 do notebook) -->
+<img width="1039" height="763" alt="image" src="https://github.com/user-attachments/assets/71fde2d3-6f4e-4388-9b4d-69f9645b3d18" />
+
 
 ---
 
