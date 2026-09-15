@@ -1,0 +1,103 @@
+{
+    "protocolos": [
+        {
+            "id": "PROTOCOLO_001",
+            "titulo": "Atendimento inicial de hipertensão arterial",
+            "conteudo": "\nPacientes com pressão arterial elevada devem passar por avaliação\nclínica e confirmação das medidas de pressão arterial.\n\nDevem ser considerados histórico clínico, medicamentos em uso,\nfatores de risco cardiovascular e presença de sintomas associados.\n\nCasos com pressão arterial muito elevada acompanhada de sintomas\ncomo dor no peito, falta de ar, alteração neurológica ou perda de\nconsciência devem receber avaliação médica imediata.\n\nQualquer decisão terapêutica ou alteração de medicamento deve ser\nvalidada por um profissional médico.\n"
+        },
+        {
+            "id": "PROTOCOLO_002",
+            "titulo": "Atendimento inicial de pacientes com febre",
+            "conteudo": "\nPacientes com febre devem ser avaliados considerando duração dos\nsintomas, temperatura registrada e presença de outros sinais clínicos.\n\nDevem ser observados sintomas associados como dificuldade respiratória,\nalteração do estado de consciência, dor intensa e sinais de desidratação.\n\nA presença de sinais de gravidade deve resultar em avaliação médica\nprioritária.\n\nO assistente não deve realizar diagnóstico definitivo nem prescrever\nmedicamentos.\n"
+        },
+        {
+            "id": "PROTOCOLO_003",
+            "titulo": "Atendimento inicial de sintomas respiratórios",
+            "conteudo": "\nPacientes com sintomas respiratórios devem ser avaliados considerando\ntosse, duração dos sintomas, presença de febre, falta de ar e outros\nsinais clínicos.\n\nSinais como dificuldade respiratória importante, alteração do nível\nde consciência ou piora clínica significativa devem resultar em\navaliação médica imediata.\n\nAs informações fornecidas pelo assistente possuem caráter de apoio\ne não substituem avaliação médica.\n"
+        }
+    ],
+    "faqs": [
+        {
+            "id": "FAQ_001",
+            "pergunta": "O assistente pode prescrever medicamentos?",
+            "resposta": "\nNão. O assistente pode fornecer informações de apoio, mas prescrições\ne alterações de medicamentos devem ser realizadas ou validadas por\num profissional médico.\n"
+        },
+        {
+            "id": "FAQ_002",
+            "pergunta": "O assistente pode realizar um diagnóstico?",
+            "resposta": "\nO assistente pode auxiliar na análise das informações disponíveis,\nmas não deve fornecer um diagnóstico definitivo sem validação médica.\n"
+        },
+        {
+            "id": "FAQ_003",
+            "pergunta": "Quando um paciente deve receber avaliação médica imediata?",
+            "resposta": "\nSituações com sinais de gravidade, como dificuldade respiratória\nimportante, perda de consciência, alterações neurológicas ou piora\nclínica significativa, devem receber avaliação médica imediata.\n"
+        }
+    ],
+    "modelos_documentos": [
+        {
+            "id": "MODELO_001",
+            "tipo": "Relatório médico",
+            "conteudo": "\nRelatório Médico\n\nPaciente:\nData:\nMotivo do atendimento:\nHistórico clínico:\nSintomas apresentados:\nAvaliação:\nConduta:\nProfissional responsável:\n"
+        },
+        {
+            "id": "MODELO_002",
+            "tipo": "Registro de procedimento",
+            "conteudo": "\nRegistro de Procedimento\n\nPaciente:\nData:\nProcedimento realizado:\nIndicação:\nDescrição:\nIntercorrências:\nProfissional responsável:\n"
+        },
+        {
+            "id": "MODELO_003",
+            "tipo": "Laudo de exame",
+            "conteudo": "\nLaudo de Exame\n\nPaciente:\nData:\nExame realizado:\nIndicação clínica:\nTécnica utilizada:\nDescrição dos achados:\nConclusão:\nProfissional responsável:\n"
+        },
+        {
+            "id": "MODELO_004",
+            "tipo": "Receituário",
+            "conteudo": "\nReceituário\n\nPaciente:\nData:\nPrescrição:\nOrientações de uso:\nObservações:\nProfissional responsável (nome e registro):\nAssinatura:\n\nDocumento válido somente quando preenchido, assinado e validado\npor profissional médico habilitado. O assistente não preenche\nprescrições.\n"
+        }
+    ],
+    "pacientes": [
+        {
+            "id": "P001",
+            "idade": 58,
+            "sexo": "Masculino",
+            "historico": [
+                "Hipertensão arterial"
+            ],
+            "medicamentos": [
+                "Losartana"
+            ],
+            "alergias": [],
+            "observacoes": "Paciente em acompanhamento clínico."
+        },
+        {
+            "id": "P002",
+            "idade": 42,
+            "sexo": "Feminino",
+            "historico": [
+                "Asma"
+            ],
+            "medicamentos": [
+                "Salbutamol"
+            ],
+            "alergias": [
+                "Dipirona"
+            ],
+            "observacoes": "Histórico de episódios de sintomas respiratórios."
+        },
+        {
+            "id": "P003",
+            "idade": 67,
+            "sexo": "Masculino",
+            "historico": [
+                "Diabetes mellitus tipo 2",
+                "Hipertensão arterial"
+            ],
+            "medicamentos": [
+                "Metformina",
+                "Losartana"
+            ],
+            "alergias": [],
+            "observacoes": "Paciente em acompanhamento periódico."
+        }
+    ]
+}

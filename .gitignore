@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Artefatos de treinamento (pesados — não versionar)
+outputs/
+tinyllama-pubmedqa-lora/
+pubmedqa/
+
+# Logs de execução local
+logs/logs_auditoria.jsonl
+
+# Notebook checkpoints
+.ipynb_checkpoints/

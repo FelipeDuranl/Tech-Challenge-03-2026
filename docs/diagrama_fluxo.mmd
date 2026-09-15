@@ -1,0 +1,12 @@
+flowchart TD
+    A["Entrada<br/>(id_paciente + pergunta)"] --> B["buscar_paciente<br/>Consulta registros estruturados"]
+    B --> C["recuperar_contexto<br/>Busca semântica (retriever)"]
+    C --> D["gerar_resposta<br/>LLM especializada (fine-tuned)"]
+    D --> E["validar_resposta<br/>Regras de segurança"]
+    E --> F["registrar_log<br/>Auditoria (JSONL)"]
+    F --> G["Resposta final<br/>+ fontes + log"]
+
+    P[("Registros de pacientes<br/>dados sintéticos")] -.-> B
+    V[("Base vetorial FAISS<br/>protocolos + FAQs")] -.-> C
+    M[("TinyLlama 1.1B + LoRA<br/>fine-tuned no PubMedQA")] -.-> D
+    F -.-> L[("logs_auditoria.jsonl")]

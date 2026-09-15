@@ -1,0 +1,19 @@
+# Preparação dos dados e avaliação
+datasets
+scikit-learn
+tqdm
+matplotlib
+
+# Fine-tuning (requer GPU — ex.: Google Colab T4)
+unsloth
+trl
+torch
+
+# LangChain / RAG / LangGraph
+langchain
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langgraph
+sentence-transformers
+faiss-cpu
