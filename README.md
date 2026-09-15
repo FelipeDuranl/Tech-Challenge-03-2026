@@ -7,6 +7,8 @@
 <!-- ATUALIZAR: substituir pelo link do vídeo após a gravação -->
 <a href="https://youtu.be/B2-zlPZBlBo">Vídeo</a> ou link: COLAR_LINK_AQUI
 
+**Foram feitas melhorias no processo após a gravação desse video.**
+
 ## Relatório técnico
 
 O relatório técnico completo, com a metodologia, os resultados e a análise crítica, está em **[`docs/relatorio_tecnico.md`](docs/relatorio_tecnico.md)**.

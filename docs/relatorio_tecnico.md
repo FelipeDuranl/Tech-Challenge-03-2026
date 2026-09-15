@@ -1,10 +1,5 @@
 # Tech-Challenge-03-2026
 
-## Link do vídeo de demonstração
-
-<!-- ATUALIZAR: substituir pelo link do vídeo após a gravação -->
-<a href="COLAR_LINK_AQUI">Vídeo</a> ou link: COLAR_LINK_AQUI
-
 # Relatório Técnico
 
 ## 1. Visão Geral da Solução
