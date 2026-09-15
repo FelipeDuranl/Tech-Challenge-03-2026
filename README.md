@@ -5,7 +5,7 @@
 ## Link do vídeo de demonstração
 
 <!-- ATUALIZAR: substituir pelo link do vídeo após a gravação -->
-<a href="https://youtu.be/B2-zlPZBlBo">Vídeo</a> ou link: COLAR_LINK_AQUI
+<a href="https://youtu.be/B2-zlPZBlBo">Vídeo</a> ou link: https://youtu.be/B2-zlPZBlBo
 
 **Foram feitas melhorias no processo após a gravação desse video.**
 
