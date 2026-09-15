@@ -182,7 +182,3 @@ O fine-tuning utiliza **duas fontes**, com instruções distintas para que o mod
 Os exemplos hospitalares são construídos no **mesmo formato que o assistente recebe em produção** (instrução + dados do paciente + contexto recuperado + pergunta), eliminando divergência entre treino e inferência.
 
 Todos os dados hospitalares são **sintéticos**, criados exclusivamente para o projeto. Nenhum dado real de paciente é utilizado, o que garante a anonimização por construção.
-
-## Equipe
-
-Projeto desenvolvido em grupo para a Fase 3 da Pós-Tech (8IADT).
